@@ -14,10 +14,12 @@ const LandingSection = () => (
     justifyContent="center"
     alignItems="center"
   >
-    <VStack spacing={4}>
-      <Heading as='h4' size='3xl'>
+    <VStack spacing={12}>
+
+      <Heading textAlign="center" as='h4' size='3xl'>
         {greeting}
       </Heading>
+      <VStack spacing={4}>
       <Heading as='h2' size='lg'>
       {bio1}
       </Heading>
@@ -27,6 +29,7 @@ const LandingSection = () => (
       <Heading as='h2' size='lg'>
       {bio3}
       </Heading>
+      </VStack>
     </VStack>
   </FullScreenSection>
 );

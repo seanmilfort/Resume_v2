@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, VStack, HStack, Text, Image, Stack, Box, AspectRatio } from "@chakra-ui/react";
+import { Heading, VStack, Text, Image, Stack, Box,} from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 import profilePicture from '../images/seanmilfort_profile.jpg'
 

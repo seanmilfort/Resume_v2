@@ -2,6 +2,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 import './App.css';
 import LandingSection from './components/LandingSection';
 import AboutMe from './components/AboutMe'
+import WorkExperience from './components/WorkExperience';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <main>
       <LandingSection />
       <AboutMe />
+      <WorkExperience />
     </main>
     </ChakraProvider>
   );

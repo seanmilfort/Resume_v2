@@ -1,6 +1,7 @@
 import * as React from "react";
 import { VStack } from "@chakra-ui/react";
 
+
 const breakpoints = {  sm: '0px',
 md: '700px',
 lg: 'null',
@@ -14,7 +15,7 @@ const FullScreenSection = ({ children, ...boxProps }) => {
   return (
     <VStack backgroundColor="#000000" color="#E5EFE7"
     >
-      <VStack maxWidth="1000px" width="85%" minHeight="100vh" {...boxProps}>
+      <VStack paddingTop={"40px"} paddingBottom={"40px"} maxWidth="1000px" width="85%" minHeight="100vh" {...boxProps}>
         {children}
       </VStack>
     </VStack>

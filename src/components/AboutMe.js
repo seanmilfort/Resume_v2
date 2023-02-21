@@ -18,7 +18,7 @@ const LandingSection = () => (
     alignItems="center"
   >
     <VStack spacing={16}>
-      <Heading as='h4' size='xl'>
+      <Heading as='h2' size='xl'>
         {heading}
       </Heading>
       <Stack direction={["column", "row"]} spacing={8} alignItems="center">

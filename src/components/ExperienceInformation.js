@@ -1,13 +1,16 @@
 import React from "react";
-import { VStack, Text, Image, Stack, Box, UnorderedList, ListItem, Heading, HStack,} from "@chakra-ui/react";
+import { VStack, Text, Image, Stack, Box, UnorderedList, ListItem, Heading} from "@chakra-ui/react";
 
 const ExperienceInfo = ({company, description, companyDates, lastPosition, dates, imageSrc}) => {
   return (
-        <Stack direction={["column", "row"]} spacing={8} alignItems="center">
+        <Stack direction={["column", "row"]} spacing={12} alignItems="center">
         <Box alignItems="center">
+        <div data-aos="fade-right">
           <Image src={imageSrc} maxWidth="300px" alignContent={"center"}/>
+          </div>
           </Box>
           <Box>
+            <div data-aos="fade-left">
           <VStack spacing={4} maxWidth="600px">
               <Stack spacing={1} direction={["column", "row"]}>
                 <Heading size="md" textAlign={"center"}>{company}</Heading>
@@ -23,6 +26,7 @@ const ExperienceInfo = ({company, description, companyDates, lastPosition, dates
                ))}
               </UnorderedList>
           </VStack>
+          </div>
           </Box>
         </Stack>
   );

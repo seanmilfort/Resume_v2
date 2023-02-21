@@ -8,14 +8,11 @@ lg: 'null',
 xl: 'null',
 '2xl': 'null'}
 
-/**
- * Illustrates the use of children prop and spread operator
- */
 const FullScreenSection = ({ children, ...boxProps }) => {
   return (
     <VStack backgroundColor="#000000" color="#E5EFE7"
     >
-      <VStack paddingTop={"40px"} paddingBottom={"40px"} maxWidth="1000px" width="85%" minHeight="100vh" {...boxProps}>
+      <VStack paddingTop={"40px"} paddingBottom={"100px"} maxWidth="1000px" width="85%" minHeight="100vh" {...boxProps}>
         {children}
       </VStack>
     </VStack>

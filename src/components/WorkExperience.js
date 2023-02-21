@@ -7,8 +7,9 @@ const experiences = [
   {
     getImageSrc: () => require("../images/RiteAidLogo.png"),
     company: "Rite Aid",
-    companyDates: "(September 2021 - Present)",
-    dates: "System Administrator II (September 2021 - Present)",
+    companyDates: "(Sep 2021 - Present)",
+    lastPosition: "System Administrator II",
+    dates: "(Sep 2021 - Present)",
     description: [
       {detail: "Maintaining AirWatch MDM Environment for 10,000+ devices"},
       {detail: "Developing/Testing New Technologies for Store Environment"},
@@ -19,8 +20,9 @@ const experiences = [
   {
     getImageSrc: () => require("../images/WellSpanHealthLogo.png"),
     company: "WellSpan Health",
-    companyDates: "(December 2019 - September 2021)",
-    dates: "Systems Administrator (Dec 2019 - September 2021)",
+    companyDates: "(Dec 2019 - Sep 2021)",
+    lastPosition: "Systems Administrator",
+    dates: "(Dec 2019 - Sep 2021)",
     description: [
       {detail: "Created/Developing Application Packages & Software Installations for mass/minor deployments"},
       {detail: "Creating Technical/Support Documentation for new & existing solutions"},
@@ -31,8 +33,9 @@ const experiences = [
   {
     getImageSrc: () => require("../images/BurlingtonStoresLogo.png"),
     company: "Burlington Stores, Inc",
-    companyDates: "(April 2015 - November 2019)",
-    dates: "Integration Analyst II (November 2017 - November 2019)",
+    companyDates: "(Apr 2015 - Nov 2019)",
+    lastPosition: "Integration Analyst II",
+    dates: "(Nov 2017 - Nov 2019)",
     description: [
       {detail: "Created Installer/Scripting Packages for silent installations for 15,000 Machine (Unix Scripting, PowerShell & Bash)"},
       {detail: "Developed/Maintained the Base Computer Image for 4,000+ machines (Windows/Mac)"},
@@ -58,6 +61,7 @@ const WorkExperience = () => (
           key={experience.company}
           company={experience.company}
           companyDates={experience.companyDates}
+          lastPosition={experience.lastPosition}
           dates={experience.dates}
           description={experience.description}
           imageSrc={experience.getImageSrc()}

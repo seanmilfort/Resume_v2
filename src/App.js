@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe'
 import WorkExperience from './components/WorkExperience';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import SkillSection from './components/SkillSection';
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <LandingSection />
       <AboutMe />
       <WorkExperience />
+      <SkillSection />
     </main>
     </ChakraProvider>
   );

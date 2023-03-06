@@ -49,7 +49,7 @@ const SkillSection = () => (
           {heading}
         </Heading>
         </div>
-        <Stack direction={["column", "row"]} spacing={12} textAlign="center">
+        <Stack direction={["column", "row"]} spacing={12} textAlign="center" alignItems={"center"}>
         {skills.map((skill) => (
           <Box width="30%">
           <SkillSectionInfo key={skill.category}

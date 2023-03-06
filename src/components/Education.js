@@ -1,15 +1,22 @@
 import React from "react";
-import { Heading, VStack, Box, Text, Image, Stack} from "@chakra-ui/react";
+import { Heading, VStack, Box, Text, Image} from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 import NCULogo from '../images/NCUWhiteLogo.png'
 import LaSalleLogo from '../images/LaSalleUniversityWhiteLogo.png'
 
 
 const heading = "Education"
+const doctorateDegree = "Doctor of Philosophy (PhD), Computer Science"
+const doctorateDegreeDates =  "Expected Graduation 2025"
+const masterDegree = "Masters of Science (M.S.), Computer and Information Science"
+const masterDegreeDates =  "May 2022"
+const bachelorDegree = "Bachelor of Arts (B.A.), Computer Science"
+const bachelorDegreeDates =  "May 2015"
 
 const Education = () => (
     <FullScreenSection
       justifyContent="center"
+      alignItems="center"
     >
       <VStack spacing={16}>
       <div data-aos="fade-up">
@@ -17,42 +24,42 @@ const Education = () => (
           {heading}
         </Heading>
         </div>
-        <Stack direction={["column", "row"]} spacing={12} alignItems="center">
-        <Box  maxWidth="300px">
+        <VStack spacing={6} alignItems="center">
         <div data-aos="fade-right">
-          <Image src={NCULogo}/>
-          </div>
-          </Box>
-          <Box maxWidth="600px">
-            <div data-aos="fade-left">
-                <VStack width="500px">
-                        <Text>Doctor of Philosophy (PhD), Computer Science</Text>
-                        <Text fontStyle={"italic"}>Expected Graduation 2025</Text>
-                </VStack>
-            </div>
+        <Box alignItems="center">
+          <Image src={NCULogo} maxWidth="300px" alignContent={"center"}/>
         </Box>
-        </Stack>
-        <Stack direction={["column", "row"]} spacing={12} alignItems="center">
-        <Box >
+        </div>
+        <div data-aos="fade-left">
+        <Box>
+                <VStack maxWidth="600px">
+                        <Text>{doctorateDegree}</Text>
+                        <Text fontStyle={"italic"}>{doctorateDegreeDates}</Text>
+                </VStack>
+        </Box>
+        </div>
+        </VStack>
+        <VStack spacing={4} alignItems="center">
         <div data-aos="fade-right">
-          <Image src={LaSalleLogo} maxWidth="300px" />
-          </div>
+        <Box>
+          <Image src={LaSalleLogo} maxWidth="300px" alignContent={"center"} />
           </Box>
+          </div>
+          <div data-aos="fade-left">
           <Box>
-            <div data-aos="fade-left">
-                <VStack width="500px" spacing={6}>
-                <VStack width="500px">
-                        <Text>Masters of Science (M.S.), Computer and Information Science</Text>
-                        <Text fontStyle={"italic"}>May 2022</Text>
-                        </VStack>
-                <VStack width="500px">
-                        <Text>Bachelor of Arts (B.A.), Computer Science</Text>
-                        <Text fontStyle={"italic"}>May 2015</Text>
+                <VStack spacing={6} textAlign="center">
+                <VStack>
+                        <Text>{masterDegree}</Text>
+                        <Text fontStyle={"italic"}>{masterDegreeDates}</Text>
+                </VStack>
+                <VStack>
+                        <Text>{bachelorDegree}</Text>
+                        <Text fontStyle={"italic"}>{bachelorDegreeDates}</Text>
                 </VStack>
                 </VStack>
-            </div>
         </Box>
-        </Stack>
+        </div>
+        </VStack>
       </VStack>
     </FullScreenSection>
   );

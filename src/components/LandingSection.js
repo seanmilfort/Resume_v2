@@ -13,9 +13,9 @@ const bio3 = "PhD Student";
     alignItems="center"
   >
     <div data-aos="fade-in" >
-    <VStack spacing={12} data>
+    <VStack spacing={12} textAlign="center">
 
-      <Heading textAlign="center" as='h4' size='3xl'>
+      <Heading as='h4' size='3xl'>
         {greeting}
       </Heading>
       <VStack spacing={4}>

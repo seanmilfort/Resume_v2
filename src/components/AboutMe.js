@@ -23,14 +23,14 @@ const LandingSection = () => (
       </div>
       <Stack direction={["column", "row"]} spacing={8} alignItems="center">
         <Box>
+        <div data-aos="fade-right">
         <VStack spacing={6} maxWidth="600px">
-          <div data-aos="fade-right">
             <Text text-align="center">{aboutMe1}</Text>
             <Text>{aboutMe2}</Text>
             <Text>{aboutMe3}</Text>
             <Text>{aboutMe4}</Text>
-            </div>
         </VStack>
+        </div>
         </Box>
         <Box>
         <div data-aos="fade-left">

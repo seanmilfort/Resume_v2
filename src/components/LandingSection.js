@@ -1,10 +1,9 @@
-import React, { useEffect } from "react";
-import { Heading, VStack } from "@chakra-ui/react";
+import {Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 
 const greeting = "Hello, I am Sean Milfort!";
 const bio1 = "System Administrator II";
-const bio2 = "Front-End Development";
+const bio2 = "Passionate About Development Work";
 const bio3 = "PhD Student";
 
   const LandingSection = () => (

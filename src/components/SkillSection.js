@@ -6,6 +6,7 @@ import SkillSectionInfo from "./SkillSectionInfo";
 const skills = [
   {
     category:"Languages",
+    aos: "fade-left",
     description: [
       {item: "React"},
       {item: "JavaScipt"},
@@ -15,6 +16,7 @@ const skills = [
   },
   {
     category:"Infrastructure Skills",
+    aos: "fade-up",
     description: [
       {item: "OS Management (Windows, macOS, Android, Linux & iOS)"},
       {item: "Mobile Device Management (Workspace ONE & Intune)"},
@@ -24,6 +26,7 @@ const skills = [
   },
   {
     category:"Interpersonal Skills",
+    aos: "fade-right",
     description: [
       {item: "Leadership"},
       {item: "Teamwork"},
@@ -41,14 +44,17 @@ const SkillSection = () => (
       alignItems="center"
     >
       <VStack spacing={16}>
+      <div data-aos="fade-up">
         <Heading as='h2' size='xl' textAlign="center">
           {heading}
         </Heading>
+        </div>
         <Stack direction={["column", "row"]} spacing={12} textAlign="center">
         {skills.map((skill) => (
           <Box width="30%">
           <SkillSectionInfo key={skill.category}
           category={skill.category}
+          aos={skill.aos}
           description={skill.description} />
           </Box>
         ))}

@@ -53,9 +53,11 @@ const WorkExperience = () => (
       alignItems="center"
     >
       <VStack spacing={16}>
+      <div data-aos="fade-up">
         <Heading as='h2' size='xl'>
           {heading}
         </Heading>
+        </div>
         {experiences.map((experience) => (
           <ExperienceInfo
           key={experience.company}

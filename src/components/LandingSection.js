@@ -7,12 +7,10 @@ const bio2 = "Passionate About Development Work";
 const bio3 = "PhD Student";
 
   const LandingSection = () => (
-
   <FullScreenSection
     justifyContent="center"
     alignItems="center"
   >
-    <div data-aos="fade-in" >
     <VStack spacing={12} textAlign="center">
 
       <Heading as='h4' size='3xl'>
@@ -30,7 +28,7 @@ const bio3 = "PhD Student";
       </Heading>
       </VStack>
     </VStack>
-    </div>
+
   </FullScreenSection>
 );
 

@@ -1,7 +1,8 @@
 import React from "react";
-import { Heading, VStack} from "@chakra-ui/react";
+import { Heading, VStack, Text} from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 import ExperienceInfo from "./ExperienceInformation";
+import resume from '../files/Sean_Milfort_Resume.pdf'
 
 const experiences = [
   {
@@ -52,11 +53,14 @@ const WorkExperience = () => (
       justifyContent="center"
       alignItems="center"
     >
-      <VStack spacing={16}>
-      <div data-aos="fade-up">
+      <VStack spacing={16} textAlign="center">
+      <div data-aos="fade-up" >
+      <VStack spacing={4}>
         <Heading as='h2' size='xl'>
           {heading}
         </Heading>
+        <Text>My complete work history is available at my <u><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/seanmilfort">LinkedIn</a></u> or feel free to download my <u><a href={resume} rel="noopener noreferrer" target="_blank">resume</a></u>.</Text>
+        </VStack>
         </div>
         {experiences.map((experience) => (
           <ExperienceInfo

@@ -20,74 +20,75 @@ const frontEndCertification = "Meta Front-End Developer Specialization"
 const frontEndCertificationDates = "February 2023"
 
 const Education = () => (
-    <FullScreenSection
-      justifyContent="center"
-      alignItems="center"
-    >
-      <VStack spacing={16}>
+  <FullScreenSection justifyContent="center" alignItems="center">
+    <VStack spacing={16}>
       <div data-aos="fade-up">
-        <Heading as='h2' size='xl'>
+        <Heading as="h2" size="xl">
           {headingEducation}
         </Heading>
-        </div>
-        <VStack spacing={6} alignItems="center">
+      </div>
+      <VStack spacing={6} alignItems="center">
         <div data-aos="fade-right">
-        <Box alignItems="center">
-          <Image src={ncuLogo} maxWidth="300px" alignContent={"center"}/>
-        </Box>
+          <Box alignItems="center">
+            <Image src={ncuLogo} maxWidth="300px" alignContent={"center"} />
+          </Box>
         </div>
         <div data-aos="fade-left">
-        <Box>
-                <VStack maxWidth="600px">
-                        <Text>{doctorateDegree}</Text>
-                        <Text fontStyle={"italic"}>{doctorateDegreeDates}</Text>
-                </VStack>
-        </Box>
-        </div>
-        </VStack>
-        <VStack spacing={4} alignItems="center">
-        <div data-aos="fade-right">
-        <Box>
-          <Image src={laSalleLogo} maxWidth="300px" alignContent={"center"} />
-          </Box>
-          </div>
-          <div data-aos="fade-left">
           <Box>
-                <VStack spacing={6} textAlign="center">
-                <VStack>
-                        <Text>{masterDegree}</Text>
-                        <Text fontStyle={"italic"}>{masterDegreeDates}</Text>
-                </VStack>
-                <VStack>
-                        <Text>{bachelorDegree}</Text>
-                        <Text fontStyle={"italic"}>{bachelorDegreeDates}</Text>
-                </VStack>
-                </VStack>
-        </Box>
+            <VStack maxWidth="600px">
+              <Text>{doctorateDegree}</Text>
+              <Text fontStyle={"italic"}>{doctorateDegreeDates}</Text>
+            </VStack>
+          </Box>
         </div>
-        </VStack>
-        <div data-aos="fade-up">
-        <Heading as='h2' size='xl'>
+      </VStack>
+      <VStack spacing={4} alignItems="center">
+        <div data-aos="fade-right">
+          <Box>
+            <Image src={laSalleLogo} maxWidth="300px" alignContent={"center"} />
+          </Box>
+        </div>
+        <div data-aos="fade-left">
+          <Box>
+            <VStack spacing={6} textAlign="center">
+              <VStack>
+                <Text>{masterDegree}</Text>
+                <Text fontStyle={"italic"}>{masterDegreeDates}</Text>
+              </VStack>
+              <VStack>
+                <Text>{bachelorDegree}</Text>
+                <Text fontStyle={"italic"}>{bachelorDegreeDates}</Text>
+              </VStack>
+            </VStack>
+          </Box>
+        </div>
+      </VStack>
+      <div data-aos="fade-up">
+        <Heading as="h2" size="xl">
           {headingCertifications}
         </Heading>
-        </div>
-        <VStack spacing={6} alignItems="center">
+      </div>
+      <VStack spacing={6} alignItems="center">
         <div data-aos="fade-right">
-        <Box alignItems="center">
-          <Image src={courseraLogo} maxWidth="300px" alignContent={"center"}/>
-        </Box>
+          <Box alignItems="center">
+            <Image
+              src={courseraLogo}
+              maxWidth="300px"
+              alignContent={"center"}
+            />
+          </Box>
         </div>
         <div data-aos="fade-left">
-        <Box>
-                <VStack maxWidth="600px">
-                        <Text>{frontEndCertification}</Text>
-                        <Text fontStyle={"italic"}>{frontEndCertificationDates}</Text>
-                </VStack>
-        </Box>
+          <Box>
+            <VStack maxWidth="600px">
+              <Text>{frontEndCertification}</Text>
+              <Text fontStyle={"italic"}>{frontEndCertificationDates}</Text>
+            </VStack>
+          </Box>
         </div>
-        </VStack>
       </VStack>
-    </FullScreenSection>
-  );
+    </VStack>
+  </FullScreenSection>
+);
 
 export default Education;

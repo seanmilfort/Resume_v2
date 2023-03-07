@@ -10,32 +10,28 @@ const aboutMe3 = "Besides my passion of IT, I'm also involved in many different 
 const aboutMe4 = "My current position in my organization allows me to test and utilize new technology to improve our work environment. With this position, I am looking at inefficient processes and problems that are currently implemented. Once identified, we look at re-mediating and improving them with new technology. Because of this, I have been able to think outside the box to find different solutions.";
 
 const LandingSection = () => (
-
-  <FullScreenSection
-    justifyContent="center"
-    alignItems="center"
-  >
+  <FullScreenSection justifyContent="center" alignItems="center">
     <VStack spacing={16}>
       <div data-aos="fade-up">
-      <Heading as='h2' size='xl'>
-        {heading}
-      </Heading>
+        <Heading as="h2" size="xl">
+          {heading}
+        </Heading>
       </div>
       <Stack direction={["column", "row"]} spacing={8} alignItems="center">
         <Box>
-        <div data-aos="fade-right">
-        <VStack spacing={6} maxWidth="600px">
-            <Text text-align="center">{aboutMe1}</Text>
-            <Text>{aboutMe2}</Text>
-            <Text>{aboutMe3}</Text>
-            <Text>{aboutMe4}</Text>
-        </VStack>
-        </div>
+          <div data-aos="fade-right">
+            <VStack spacing={6} maxWidth="600px">
+              <Text text-align="center">{aboutMe1}</Text>
+              <Text>{aboutMe2}</Text>
+              <Text>{aboutMe3}</Text>
+              <Text>{aboutMe4}</Text>
+            </VStack>
+          </div>
         </Box>
         <Box>
-        <div data-aos="fade-left">
-        <Image src={profilePicture} maxWidth="300px"/>
-        </div>
+          <div data-aos="fade-left">
+            <Image src={profilePicture} maxWidth="300px" />
+          </div>
         </Box>
       </Stack>
     </VStack>

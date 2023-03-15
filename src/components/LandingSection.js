@@ -3,16 +3,12 @@ import FullScreenSection from "./FullScreenSection";
 
 const greeting = "Hello, I am Sean Milfort!";
 const bio1 = "System Administrator II";
-const bio2 = "Passionate About Development Work";
+const bio2 = "Enjoys Development Work";
 const bio3 = "PhD Student";
 
   const LandingSection = () => (
-  <FullScreenSection
-    justifyContent="center"
-    alignItems="center"
-  >
+  <FullScreenSection >
     <VStack spacing={12} textAlign="center">
-
       <Heading as='h4' size='3xl'>
         {greeting}
       </Heading>

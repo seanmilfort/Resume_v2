@@ -49,10 +49,7 @@ const experiences = [
 const heading = "Work Experience"
 
 const WorkExperience = () => (
-    <FullScreenSection
-      justifyContent="center"
-      alignItems="center"
-    >
+    <FullScreenSection>
       <VStack spacing={16} textAlign="center">
       <div data-aos="fade-up" >
       <VStack spacing={4}>

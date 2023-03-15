@@ -20,7 +20,7 @@ const frontEndCertification = "Meta Front-End Developer Specialization"
 const frontEndCertificationDates = "February 2023"
 
 const Education = () => (
-  <FullScreenSection justifyContent="center" alignItems="center">
+  <FullScreenSection>
     <VStack spacing={16}>
       <div data-aos="fade-up">
         <Heading as="h2" size="xl">

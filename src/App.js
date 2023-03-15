@@ -7,6 +7,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 import SkillSection from './components/SkillSection';
 import Education from './components/Education';
+import Footer from './components/Footer';
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <WorkExperience />
       <SkillSection />
       <Education />
+      <Footer />
     </main>
     </ChakraProvider>
   );

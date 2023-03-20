@@ -16,7 +16,7 @@ const NavBar = (props) => {
         color={["white", "white", "primary.500", "primary.500"]}
       />
       <MenuToggle toggle={toggle} isOpen={isOpen} />
-      <MenuLinks isOpen={isOpen} />
+      <MenuLinks isOpen={isOpen} toggle={toggle} />
     </NavBarContainer>
   );
 };
@@ -51,17 +51,17 @@ const MenuToggle = ({ toggle, isOpen }) => {
   );
 };
 
-const MenuItem = ({ children, isLast, to = "/", ...rest }) => {
+const MenuItem = ({ children, toggle, isLast, to = "/", ...rest }) => {
   return (
-    <Link href={to}>
-      <Text display="block" {...rest}>
+    <Link href={to}  >
+      <Text display="block" onClick={toggle} {...rest}>
         {children}
       </Text>
     </Link>
   );
 };
 
-const MenuLinks = ({isOpen }) => {
+const MenuLinks = ({isOpen, toggle }) => {
   return (
     <Box
       display={{ base: isOpen ? "block" : "none", md: "block" }}
@@ -74,12 +74,12 @@ const MenuLinks = ({isOpen }) => {
         direction={["column", "row", "row", "row"]}
         pt={[4, 4, 0, 0]}
       >
-        <MenuItem to="#Home">Home</MenuItem>
-        <MenuItem to="#AboutMe" >About Me</MenuItem>
-        <MenuItem to="#WorkExperience">Work Experience</MenuItem>
-        <MenuItem to="#Skills">Skills</MenuItem>
-        <MenuItem to="#Education">Education</MenuItem>
-        <MenuItem to="#ContactMe" isLast>
+        <MenuItem to="#Home" onClick={toggle}>Home</MenuItem>
+        <MenuItem to="#AboutMe" onClick={toggle}>About Me</MenuItem>
+        <MenuItem to="#WorkExperience" onClick={toggle}>Work Experience</MenuItem>
+        <MenuItem to="#Skills" onClick={toggle}>Skills</MenuItem>
+        <MenuItem to="#Education" onClick={toggle}>Education</MenuItem>
+        <MenuItem to="#ContactMe" onClick={toggle} isLast>
           Contact Me
         </MenuItem>
       </Stack>
@@ -96,8 +96,8 @@ const NavBarContainer = ({ children, ...props }) => {
       position={"fixed"}
       wrap="wrap"
       w="100%"
-      mb={8}
-      p={8}
+      mb={4}
+      p={4}
       bg={["#000000", "#000000", "primary.700", "primary.700"]}
       color={["#E5EFE7", "#E5EFE7", "solid", "solid"]}
       zIndex={100}

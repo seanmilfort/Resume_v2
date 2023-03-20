@@ -20,6 +20,7 @@ const frontEndCertification = "Meta Front-End Developer Specialization"
 const frontEndCertificationDates = "February 2023"
 
 const Education = () => (
+  <div id="Education">
   <FullScreenSection>
     <VStack spacing={16}>
       <div data-aos="fade-up">
@@ -89,6 +90,7 @@ const Education = () => (
       </VStack>
     </VStack>
   </FullScreenSection>
+  </div>
 );
 
 export default Education;

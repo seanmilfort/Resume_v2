@@ -39,6 +39,7 @@ const skills = [
 const heading = "Skills"
 
 const SkillSection = () => (
+  <div id="Skills">
     <FullScreenSection
       justifyContent="center"
       alignItems="center"
@@ -62,6 +63,7 @@ const SkillSection = () => (
       </Stack>
       </VStack>
     </FullScreenSection>
+    </div>
   );
 
 export default SkillSection;

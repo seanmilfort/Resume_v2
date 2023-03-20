@@ -7,6 +7,7 @@ const bio2 = "Enjoys Development Work";
 const bio3 = "PhD Student";
 
   const LandingSection = () => (
+  <div id="Home">
   <FullScreenSection >
     <VStack spacing={12} textAlign="center">
       <Heading as='h4' size='3xl'>
@@ -24,8 +25,8 @@ const bio3 = "PhD Student";
       </Heading>
       </VStack>
     </VStack>
-
   </FullScreenSection>
+  </div>
 );
 
 export default LandingSection;

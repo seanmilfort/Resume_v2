@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import SkillSection from './components/SkillSection';
 import Education from './components/Education';
 import Footer from './components/Footer';
+import NavBar from './components/NavBar';
 
 
 
@@ -19,8 +20,9 @@ function App() {
     });
 
   return (
-    <ChakraProvider>
+    <ChakraProvider maxWidth="100%">
     <main>
+      <NavBar />
       <LandingSection />
       <AboutMe />
       <WorkExperience />

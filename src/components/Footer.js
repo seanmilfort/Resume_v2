@@ -49,6 +49,7 @@ import {
 
 const Footer = () => {
     return (
+      <div id="ContactMe">
 <VStack backgroundColor="#000000" color="#E5EFE7" >
     <VStack alignItems={"center"} paddingTop={"40px"} paddingBottom={"100px"} maxWidth="1000px" width="85%" minHeight="40vh" justifyContent={"center"} textAlign={"center"}>
         <div data-aos="fade-up">
@@ -64,6 +65,7 @@ const Footer = () => {
         </div>
     </VStack>
 </VStack>
+</div>
     )
 };
 

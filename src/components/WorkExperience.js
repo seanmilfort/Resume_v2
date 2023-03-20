@@ -49,6 +49,7 @@ const experiences = [
 const heading = "Work Experience"
 
 const WorkExperience = () => (
+<div id="WorkExperience">
     <FullScreenSection>
       <VStack spacing={16} textAlign="center">
       <div data-aos="fade-up" >
@@ -72,6 +73,7 @@ const WorkExperience = () => (
         ))}
       </VStack>
     </FullScreenSection>
+    </div>
   );
 
 export default WorkExperience;

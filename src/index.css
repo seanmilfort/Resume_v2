@@ -15,4 +15,10 @@ code {
 html {
   background-color: #000000;
   color: #E5EFE7;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+html,body{
+  overflow-x: hidden;
 }

@@ -10,6 +10,7 @@ const aboutMe3 = "Besides my passion of IT, I'm also involved in many different 
 const aboutMe4 = "My current position in my organization allows me to test and utilize new technology to improve our work environment. With this position, I am looking at inefficient processes and problems that are currently implemented. Once identified, we look at re-mediating and improving them with new technology. Because of this, I have been able to think outside the box to find different solutions.";
 
 const LandingSection = () => (
+  <div id="AboutMe">
   <FullScreenSection>
     <VStack spacing={16}>
       <div data-aos="fade-up">
@@ -36,6 +37,7 @@ const LandingSection = () => (
       </Stack>
     </VStack>
   </FullScreenSection>
+  </div>
 );
 
 export default LandingSection;

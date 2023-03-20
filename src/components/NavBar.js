@@ -1,10 +1,11 @@
 import React from "react";
+import { useState } from "react";
 import { Link, Box, Flex, Text, Stack } from "@chakra-ui/react";
 
 import Logo from "./Logo";
 
 const NavBar = (props) => {
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
@@ -60,7 +61,7 @@ const MenuItem = ({ children, isLast, to = "/", ...rest }) => {
   );
 };
 
-const MenuLinks = ({ isOpen }) => {
+const MenuLinks = ({isOpen }) => {
   return (
     <Box
       display={{ base: isOpen ? "block" : "none", md: "block" }}
@@ -74,7 +75,7 @@ const MenuLinks = ({ isOpen }) => {
         pt={[4, 4, 0, 0]}
       >
         <MenuItem to="#Home">Home</MenuItem>
-        <MenuItem to="#AboutMe">About Me</MenuItem>
+        <MenuItem to="#AboutMe" >About Me</MenuItem>
         <MenuItem to="#WorkExperience">Work Experience</MenuItem>
         <MenuItem to="#Skills">Skills</MenuItem>
         <MenuItem to="#Education">Education</MenuItem>

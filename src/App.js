@@ -16,8 +16,8 @@ import "@fontsource/bitter"
 
 const customTheme = extendTheme({
     fonts: {
-        heading: 'PT Sans',
-        body: 'Bitter'
+        heading: `'PT Sans' ,sans-serif`,
+        body: `'Bitter', serif`
     }
 })
 

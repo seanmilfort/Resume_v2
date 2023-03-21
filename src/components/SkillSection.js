@@ -8,8 +8,8 @@ const skills = [
     category:"Languages",
     aos: "fade-left",
     description: [
-      {item: "React"},
-      {item: "JavaScipt"},
+      {item: "React Native"},
+      {item: "React/JavaScipt"},
       {item: "Swift/Kotlin"},
       {item: "HTML/CSS"},
       {item: "PowerShell"} ]

@@ -10,7 +10,16 @@ import Education from './components/Education';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 
+import { extendTheme } from "@chakra-ui/react";
+import "@fontsource/pt-sans/400-italic.css"
+import "@fontsource/bitter"
 
+const customTheme = extendTheme({
+    fonts: {
+        heading: 'PT Sans',
+        body: 'Bitter'
+    }
+})
 
 function App() {
 
@@ -20,7 +29,7 @@ function App() {
     });
 
   return (
-    <ChakraProvider maxWidth="100%">
+    <ChakraProvider theme={customTheme} maxWidth="100%">
     <main>
       <NavBar />
       <LandingSection />

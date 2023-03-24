@@ -1,0 +1,10 @@
+[[redirects]]
+from = "https://news.seanmilfort.com/*"
+to = "https://seanmilfort.substack.com/"
+status = 301
+force = true
+[[redirects]]
+from = "https://www.news.seanmilfort.com/*"
+to = "https://seanmilfort.substack.com/"
+status = 301
+force = true

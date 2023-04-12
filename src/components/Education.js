@@ -19,6 +19,9 @@ const bachelorDegreeDates =  "May 2015"
 const frontEndCertification = "Meta Front-End Developer Specialization"
 const frontEndCertificationDates = "February 2023"
 
+const iOSCertification = "Meta iOS Developer Specialization"
+const iOSCertificationDates = "April 2023"
+
 const Education = () => (
   <div id="Education">
   <FullScreenSection>
@@ -84,6 +87,14 @@ const Education = () => (
             <VStack maxWidth="600px">
               <Text>{frontEndCertification}</Text>
               <Text fontStyle={"italic"}>{frontEndCertificationDates}</Text>
+            </VStack>
+          </Box>
+        </div>
+        <div data-aos="fade-left">
+          <Box>
+            <VStack maxWidth="600px">
+              <Text>{iOSCertification}</Text>
+              <Text fontStyle={"italic"}>{iOSCertificationDates}</Text>
             </VStack>
           </Box>
         </div>

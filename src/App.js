@@ -9,6 +9,7 @@ import SkillSection from './components/SkillSection';
 import Education from './components/Education';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
+import Projects from './components/Projects';
 
 import { extendTheme } from "@chakra-ui/react";
 import "@fontsource/pt-sans/400-italic.css"
@@ -36,6 +37,7 @@ function App() {
       <AboutMe />
       <WorkExperience />
       <SkillSection />
+      <Projects />
       <Education />
       <Footer />
     </main>

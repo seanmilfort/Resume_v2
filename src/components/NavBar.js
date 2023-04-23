@@ -78,6 +78,7 @@ const MenuLinks = ({isOpen, toggle }) => {
         <MenuItem to="#AboutMe" onClick={toggle}>About Me</MenuItem>
         <MenuItem to="#WorkExperience" onClick={toggle}>Work Experience</MenuItem>
         <MenuItem to="#Skills" onClick={toggle}>Skills</MenuItem>
+        <MenuItem to="#Projects" onClick={toggle}>Projects</MenuItem>
         <MenuItem to="#Education" onClick={toggle}>Education</MenuItem>
         <MenuItem to="#ContactMe" onClick={toggle} isLast>
           Contact Me

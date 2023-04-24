@@ -2,6 +2,7 @@ import React from "react";
 import { Heading, VStack, Text, Stack, Box, Image, Button} from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 import resumeproject from '../images/resume_project_photo.png'
+import linktreev2project from '../images/linktreev2_project_photo.png'
 
 
 
@@ -16,6 +17,8 @@ const WorkExperience = () => (
           {heading}
         </Heading>
         </div>
+
+        {/* Resume Project */}
         <Stack direction={["column", "row"]} spacing={12} alignItems="center">
         <Box>
         <div data-aos="fade-right">
@@ -45,9 +48,41 @@ const WorkExperience = () => (
           </VStack>
         </div>
       </Box>
+      </Stack>
+
+        {/* Link Tree v2 Project */}
+        <Stack direction={["column", "row"]} spacing={12} alignItems="center">
+        <Box>
+        <div data-aos="fade-right">
+          <Image src={linktreev2project} maxWidth="300px" />
+        </div>
+        </Box>
+        <Box>
+        <div data-aos="fade-left">
+          <VStack spacing={4} maxWidth="600px">
+              <Heading size="md" textAlign={"center"}>
+                Linktree v2 Clone
+              </Heading>
+              <Text fontStyle={"italic"} textAlign={"center"}>
+                React
+              </Text>
+              <Text>
+              This project was created with the attempt to make my own version of the current website Linktree. Linktree is a website that allows users to put all their social media links on one page web page. Since that solution is a paid offering and it is just a website, I decided to develop my own. <br /> This project is the second iteration of this information. The original iteration was created with HTML/CSS and vanilla JS. This one is utilizing React.
+              </Text>
+            <Stack spacing={6} direction={["column", "row"]}>
+              <Button borderColor='#E5EFE7' variant='outline' size='md' _hover={{ color: '#000000', bg: '#E5EFE7' }}>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/seanmilfort/Link-Page-v2">View Code</a>
+                </Button>
+                <Button borderColor='#E5EFE7' variant='outline' size='md' _hover={{ color: '#000000', bg: '#E5EFE7' }}>
+                <a target="_blank" rel="noopener noreferrer" href="https://links.seanmilfort.com">Demo Project</a>
+                </Button>
+            </Stack>
+          </VStack>
+        </div>
+      </Box>
     </Stack>
 
-      </VStack>
+    </VStack>
     </FullScreenSection>
     </div>
   );

@@ -46,7 +46,7 @@ const Education = () => (
           </Box>
         </div>
       </VStack>
-      <VStack spacing={4} alignItems="center">
+      <VStack spacing={6} alignItems="center">
         <div data-aos="fade-right">
           <Box>
             <Image src={laSalleLogo} maxWidth="300px" alignContent={"center"} />

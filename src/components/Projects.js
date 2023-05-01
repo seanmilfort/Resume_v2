@@ -6,7 +6,7 @@ import resumeproject from '../images/resume_project_photo.png'
 import linktreev2project from '../images/linktreev2_project_photo.png'
 import littlelemonswiftproject from '../images/iPhoneFoodOrdering_Screenshots.png'
 import littlelemonbookingproject from '../images/littlelemonbooking_project_photo.png'
-
+import djwebsitegproject from '../images/djwebsite_project_photo.png'
 
 
 const heading = "Projects"
@@ -112,7 +112,7 @@ const WorkExperience = () => (
           </Box>
         </Stack>
 
-            {/* Link Tree v2 Project */}
+        {/* Link Tree v2 Project */}
         <Stack direction={["column", "row"]} spacing={12} alignItems="center">
           <Box>
             <div data-aos="fade-right">
@@ -137,6 +137,38 @@ const WorkExperience = () => (
                   </Button>
                   <Button borderColor='#E5EFE7' variant='outline' size='md' _hover={{ color: '#000000', bg: '#E5EFE7' }}>
                     <a target="_blank" rel="noopener noreferrer" href="https://main--neon-faloodeh-82f570.netlify.app/">Demo Project</a>
+                  </Button>
+                </Stack>
+              </VStack>
+            </div>
+          </Box>
+        </Stack>
+
+        {/* DJ Website */}
+        <Stack direction={["column", "row"]} spacing={12} alignItems="center">
+          <Box>
+            <div data-aos="fade-right">
+              <Image src={djwebsitegproject} maxWidth="300px" border='2px' borderColor='#E5EFE7' />
+            </div>
+          </Box>
+          <Box>
+            <div data-aos="fade-left">
+              <VStack spacing={4} maxWidth="600px">
+                <Heading size="md" textAlign={"center"}>
+                  DJ Website
+                </Heading>
+                <Text fontStyle={"italic"} textAlign={"center"}>
+                  HTML, CSS, JavaScript
+                </Text>
+                <Text>
+                  This website was created with HTML, CSS and JavaScript. It was created for the purpose of showcasing one of my side projects and hobbies, being a DJ.
+                </Text>
+                <Stack spacing={6} direction={["column", "row"]}>
+                  <Button borderColor='#E5EFE7' variant='outline' size='md' _hover={{ color: '#000000', bg: '#E5EFE7' }}>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/seanmilfort/DJWebsite">View Code</a>
+                  </Button>
+                  <Button borderColor='#E5EFE7' variant='outline' size='md' _hover={{ color: '#000000', bg: '#E5EFE7' }}>
+                    <a target="_blank" rel="noopener noreferrer" href="https://djseanzie.club/">Demo Project</a>
                   </Button>
                 </Stack>
               </VStack>

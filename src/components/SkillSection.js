@@ -12,7 +12,7 @@ const skills = [
       {item: "React/JavaScipt"},
       {item: "Swift/Kotlin"},
       {item: "HTML/CSS"},
-      {item: "PowerShell"} ]
+      {item: "PowerShell/Bash"} ]
   },
   {
     category:"Infrastructure Skills",

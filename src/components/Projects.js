@@ -178,13 +178,13 @@ const WorkExperience = () => (
         </Stack>
 
         {/* Link Tree v1 */}
-        <Stack direction={["column", "row"]} spacing={12} alignItems="center">
+        {/* <Stack direction={["column", "row"]} spacing={12} alignItems="center">
           <Box>
             <div data-aos="fade-right">
               <Image src={linktreev1project} maxWidth="300px" border='2px' borderColor='#E5EFE7' />
             </div>
           </Box>
-          {/* <Box>
+          <Box>
             <div data-aos="fade-left">
               <VStack spacing={4} maxWidth="600px">
                 <Heading size="md" textAlign={"center"}>
@@ -206,8 +206,8 @@ const WorkExperience = () => (
                 </Stack>
               </VStack>
             </div>
-          </Box> */}
-        </Stack>
+          </Box>
+        </Stack> */}
 
       </VStack>
     </FullScreenSection>

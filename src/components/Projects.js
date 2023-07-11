@@ -184,7 +184,7 @@ const WorkExperience = () => (
               <Image src={linktreev1project} maxWidth="300px" border='2px' borderColor='#E5EFE7' />
             </div>
           </Box>
-          <Box>
+          {/* <Box>
             <div data-aos="fade-left">
               <VStack spacing={4} maxWidth="600px">
                 <Heading size="md" textAlign={"center"}>
@@ -206,7 +206,7 @@ const WorkExperience = () => (
                 </Stack>
               </VStack>
             </div>
-          </Box>
+          </Box> */}
         </Stack>
 
       </VStack>

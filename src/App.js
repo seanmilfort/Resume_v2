@@ -12,13 +12,14 @@ import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 
 import { extendTheme } from "@chakra-ui/react";
-import "@fontsource/roboto/400-italic.css";
-import "@fontsource/montserrat/300.css"
+// import "@fontsource/space-mono/400-italic.css";
+// import "@fontsource/montserrat/300.css"
+import "@fontsource/lato";
 
 const customTheme = extendTheme({
     fonts: {
-        heading: "roboto",
-        body: "Montserrat"
+        heading: "Lato",
+        body: "Lato"
     }
 })
 

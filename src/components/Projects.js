@@ -7,8 +7,6 @@ import linktreev2project from '../images/linktreev2_project_photo.png'
 import littlelemonswiftproject from '../images/iPhoneFoodOrdering_Screenshots.png'
 import littlelemonbookingproject from '../images/littlelemonbooking_project_photo.png'
 import djwebsitegproject from '../images/djwebsite_project_photo.png'
-import linktreev1project from '../images/linktreev1DJ_project_photo.png'
-
 
 const heading = "Projects"
 
@@ -176,38 +174,6 @@ const WorkExperience = () => (
             </div>
           </Box>
         </Stack>
-
-        {/* Link Tree v1 */}
-        {/* <Stack direction={["column", "row"]} spacing={12} alignItems="center">
-          <Box>
-            <div data-aos="fade-right">
-              <Image src={linktreev1project} maxWidth="300px" border='2px' borderColor='#E5EFE7' />
-            </div>
-          </Box>
-          <Box>
-            <div data-aos="fade-left">
-              <VStack spacing={4} maxWidth="600px">
-                <Heading size="md" textAlign={"center"}>
-                  Linktree v1 Clone
-                </Heading>
-                <Text fontStyle={"italic"} textAlign={"center"}>
-                  HTML, CSS, JavaScript
-                </Text>
-                <Text>
-                This project was created with the attempt to make my own version of the current website Linktree. Linktree is a website that allows users to put all their social media links on one page web page. Since that solution is a paid offering and it is just a website, I decided to develop my own. <br /><br />This project is the first iteration of this information. It was created with HTML/CSS and vanilla JS.
-                </Text>
-                <Stack spacing={6} direction={["column", "row"]}>
-                  <Button borderColor='#E5EFE7' variant='outline' size='md' _hover={{ color: '#000000', bg: '#E5EFE7' }}>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/seanmilfort/LinkPage_DJ">View Code</a>
-                  </Button>
-                  <Button borderColor='#E5EFE7' variant='outline' size='md' _hover={{ color: '#000000', bg: '#E5EFE7' }}>
-                    <a target="_blank" rel="noopener noreferrer" href="https://links.djseanzie.club/">Demo Project</a>
-                  </Button>
-                </Stack>
-              </VStack>
-            </div>
-          </Box>
-        </Stack> */}
 
       </VStack>
     </FullScreenSection>

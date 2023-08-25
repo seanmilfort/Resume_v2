@@ -1,7 +1,7 @@
 import React from "react";
 import { Heading, VStack, Box, Text, Image} from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
-import ncuLogo from '../images/NCUWhiteLogo.png'
+import nuLogo from '../images/NationalUniversityLogo.png'
 import laSalleLogo from '../images/LaSalleUniversityWhiteLogo.png'
 import courseraLogo from '../images/courseraLogo.png'
 
@@ -34,7 +34,7 @@ const Education = () => (
       <VStack spacing={6} alignItems="center">
         <div data-aos="fade-right">
           <Box alignItems="center">
-            <Image src={ncuLogo} maxWidth="300px" alignContent={"center"} />
+            <Image src={nuLogo} maxWidth="300px" alignContent={"center"} />
           </Box>
         </div>
         <div data-aos="fade-left">

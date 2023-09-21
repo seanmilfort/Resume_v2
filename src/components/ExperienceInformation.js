@@ -3,7 +3,7 @@ import {VStack, Text, Image, Stack, Box, UnorderedList, ListItem, Heading} from 
 
 const ExperienceInfo = ({company, description, companyDates, lastPosition, dates, imageSrc}) => {
   return (
-    <Stack direction={["column", "row"]} spacing={12} alignItems="center">
+    <Stack direction={["column", "column", "column", "row"]} spacing={12} alignItems="center">
       <Box>
         <div data-aos="fade-right">
           <Image src={imageSrc} maxWidth="300px" />

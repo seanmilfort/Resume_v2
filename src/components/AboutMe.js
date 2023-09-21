@@ -21,10 +21,10 @@ const LandingSection = () => (
           {heading}
         </Heading>
       </div>
-      <Stack direction={["column", "row"]} spacing={8} alignItems={"center"}>
+      <Stack direction={["column", "column", "column", "row"]} spacing={8} alignItems={"center"}>
         <Box>
           <div data-aos="fade-right">
-            <VStack spacing={4} maxWidth="500px" text-align="center">
+            <VStack spacing={4} maxWidth={{base: '500px', lg: '700px'}} text-align="center">
               <Text>{aboutMe1}</Text>
               <Text>{aboutMe2}</Text>
               <Text>{aboutMe3}</Text>
@@ -44,7 +44,7 @@ const LandingSection = () => (
         </Box>
         <Box>
           <div data-aos="fade-left" >
-            <Image src={profilePicture} maxWidth="500px" margin="auto"/>
+            <Image src={profilePicture} maxWidth={{base: '300px', md: '400px', lg: '500px'}} margin="auto"/>
           </div>
         </Box>
       </Stack>

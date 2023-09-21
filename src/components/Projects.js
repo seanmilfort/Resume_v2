@@ -21,7 +21,7 @@ const WorkExperience = () => (
         </div>
 
         {/* Resume Project */}
-        <Stack direction={["column", "row"]} spacing={12} alignItems="center">
+        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center">
           <Box>
             <div data-aos="fade-right">
               <Image src={resumeproject} maxWidth="300px" border='2px' borderColor='#E5EFE7' />
@@ -39,7 +39,7 @@ const WorkExperience = () => (
                 <Text>
                   After completing some tutorials with React/Modern Web Development Tools, I have updated and recreated my website/portfolio with these tools. The goal of this project is to showcase my skills in React as well as other tools.<br /><br />This project is the second iteration of this information.The original iteration was created with HTML/CSS and vanilla JS. This one is utilizing React.
                 </Text>
-                <Stack spacing={6} direction={["column", "row"]}>
+                <Stack spacing={6} direction={["column", "column", "row"]}>
                   <Button borderColor='#E5EFE7' variant='outline' size='md' _hover={{ color: '#000000', bg: '#E5EFE7' }}>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/seanmilfort/Resume_v2">View Code</a>
                   </Button>
@@ -53,7 +53,7 @@ const WorkExperience = () => (
         </Stack>
 
         {/* Link Tree v2 Project */}
-        <Stack direction={["column", "row"]} spacing={12} alignItems="center">
+        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center">
           <Box>
             <div data-aos="fade-right">
               <Image src={linktreev2project} maxWidth="300px" border='2px' borderColor='#E5EFE7' />
@@ -85,7 +85,7 @@ const WorkExperience = () => (
         </Stack>
 
         {/* Little Lemon Food Ordering Project */}
-        <Stack direction={["column", "row"]} spacing={12} alignItems="center">
+        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center">
           <Box>
             <div data-aos="fade-right">
               <Image src={littlelemonswiftproject} maxWidth="300px" border='2px' borderColor='#E5EFE7' />
@@ -93,7 +93,7 @@ const WorkExperience = () => (
           </Box>
           <Box>
             <div data-aos="fade-left">
-              <VStack spacing={4} maxWidth="600px">
+              <VStack spacing={4} maxWidth={{base: '300px', md: '400px', lg: '500px'}}>
                 <Heading size="md" textAlign={"center"}>
                   Little Lemon Food Ordering Application
                 </Heading>
@@ -112,7 +112,7 @@ const WorkExperience = () => (
         </Stack>
 
         {/* Little Lemon Booking Project Project */}
-        <Stack direction={["column", "row"]} spacing={12} alignItems="center">
+        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center">
           <Box>
             <div data-aos="fade-right">
               <Image src={littlelemonbookingproject} maxWidth="300px" border='2px' borderColor='#E5EFE7' />
@@ -144,7 +144,7 @@ const WorkExperience = () => (
         </Stack>
 
         {/* DJ Website */}
-        <Stack direction={["column", "row"]} spacing={12} alignItems="center">
+        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center">
           <Box>
             <div data-aos="fade-right">
               <Image src={djwebsitegproject} maxWidth="300px" border='2px' borderColor='#E5EFE7' />

@@ -31,7 +31,8 @@ function App() {
     });
 
   return (
-    <ChakraProvider theme={customTheme} maxWidth="100%">
+
+<ChakraProvider theme={customTheme} maxWidth="100%">
     <main>
       <NavBar />
       <LandingSection />

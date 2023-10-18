@@ -10,6 +10,7 @@ import Education from './components/Education';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
+import ScrollToTop from "react-scroll-to-top";
 
 import { extendTheme } from "@chakra-ui/react";
 // import "@fontsource/space-mono/400-italic.css";
@@ -42,6 +43,7 @@ function App() {
       <Projects />
       <Education />
       <Footer />
+      <ScrollToTop smooth width="40"/>
     </main>
     </ChakraProvider>
   );

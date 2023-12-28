@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, VStack, HStack, Text, Box} from "@chakra-ui/react";
+import { Heading, VStack, HStack, Text, Box, Stack} from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faNewspaper } from "@fortawesome/free-solid-svg-icons"
 import {
@@ -13,7 +13,7 @@ import {
     faThreads
   } from "@fortawesome/free-brands-svg-icons";
 
-  const socials = [
+  const socialsTop = [
     {
       icon: faXTwitter,
       url: "https://twitter.com/seanmilfort",
@@ -33,7 +33,10 @@ import {
     {
       icon: faTiktok,
       url: "https://www.tiktok.com/@seanmilfort",
-    },
+    }
+  ];
+
+  const socialsBottom = [
     {
       icon: faLinkedin,
       url: "https://www.linkedin.com/in/seanmilfort",
@@ -64,11 +67,18 @@ const Footer = () => {
         <div data-aos="fade-up">
         <VStack spacing={12}>
         <Heading as="h2" size="xl">Let's Keep In Touch</Heading>
-        <HStack spacing={4} style={{justifyContent: "center", alignItems: "center"}}>
-            {socials.map(socialMediaLinks => {
-                return <Box key={socialMediaLinks.url}><a rel="me" href={socialMediaLinks.url}><FontAwesomeIcon icon={socialMediaLinks.icon} size="2x" /></a></Box>
-            })}
-        </HStack>
+        <Stack direction={["column", "column", "row"]} spacing={4} alignItems="center">
+          <HStack spacing={4} style={{justifyContent: "center", alignItems: "center"}}>
+              {socialsTop.map(socialMediaLinks => {
+                  return <Box key={socialMediaLinks.url}><a rel="me" href={socialMediaLinks.url}><FontAwesomeIcon icon={socialMediaLinks.icon} size="2x" /></a></Box>
+              })}
+          </HStack>
+          <HStack spacing={4} style={{justifyContent: "center", alignItems: "center"}}>
+              {socialsBottom.map(socialMediaLinks => {
+                  return <Box key={socialMediaLinks.url}><a rel="me" href={socialMediaLinks.url}><FontAwesomeIcon icon={socialMediaLinks.icon} size="2x" /></a></Box>
+              })}
+          </HStack>
+        </Stack>
         <Text>Copyright &copy; 2023 Sean Milfort. All Rights Reserved.</Text>
         </VStack>
         </div>

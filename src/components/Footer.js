@@ -10,7 +10,8 @@ import {
     faTiktok,
     faGithub,
     faMastodon,
-    faThreads
+    faThreads,
+    faMedium
   } from "@fortawesome/free-brands-svg-icons";
 
   const socialsTop = [
@@ -39,6 +40,10 @@ import {
   const socialsBottom = [
     {
       icon: faLinkedin,
+      url: "https://www.linkedin.com/in/seanmilfort",
+    },
+    {
+      icon: faMedium,
       url: "https://www.linkedin.com/in/seanmilfort",
     },
     {

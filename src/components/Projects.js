@@ -21,13 +21,13 @@ const WorkExperience = () => (
         </div>
 
         {/* Resume Project */}
-        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center">
+        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center" width="100%">
           <Box>
             <div data-aos="fade-right">
               <Image src={resumeproject} maxWidth="300px" border='2px' borderColor='#E5EFE7' />
             </div>
           </Box>
-          <Box>
+          <Box width="100%">
             <div data-aos="fade-left">
               <VStack spacing={4} maxWidth="600px">
                 <Heading size="md" textAlign={"center"}>
@@ -53,13 +53,13 @@ const WorkExperience = () => (
         </Stack>
 
         {/* Link Tree v2 Project */}
-        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center">
+        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center" width="100%">
           <Box>
             <div data-aos="fade-right">
               <Image src={linktreev2project} maxWidth="300px" border='2px' borderColor='#E5EFE7' />
             </div>
           </Box>
-          <Box>
+          <Box width="100%">
             <div data-aos="fade-left">
               <VStack spacing={4} maxWidth="600px">
                 <Heading size="md" textAlign={"center"}>
@@ -85,40 +85,42 @@ const WorkExperience = () => (
         </Stack>
 
         {/* Little Lemon Food Ordering Project */}
-        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center">
+        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center" width="100%">
           <Box>
             <div data-aos="fade-right">
               <Image src={littlelemonswiftproject} maxWidth="300px" border='2px' borderColor='#E5EFE7' />
             </div>
           </Box>
-          <Box>
+          <Box width="100%">
             <div data-aos="fade-left">
-              <VStack spacing={4} maxWidth={{base: '300px', md: '400px', lg: '500px'}}>
+              <VStack spacing={4} maxWidth="600px">
                 <Heading size="md" textAlign={"center"}>
-                  Little Lemon Food Ordering Application
+                Little Lemon Food Ordering Application
                 </Heading>
                 <Text fontStyle={"italic"} textAlign={"center"}>
-                  Swift
+                Swift
                 </Text>
                 <Text>
-                  This project was the final project created during Meta's iOS Developer Specialization Course. This website was the culmuniation of the iOS Developer Development Track.<br /><br />This application is set to be used as a demo for creating a Food Ordering Application for the Little Lemon Restaurant. This utilizes a Login Page, pulling raw data from a Data Source and populating a Menu List, while also implenting sorting, filtering and search capabilities.
+                This project was the final project created during Meta's iOS Developer Specialization Course. This website was the culmuniation of the iOS Developer Development Track.<br /><br />This application is set to be used as a demo for creating a Food Ordering Application for the Little Lemon Restaurant. This utilizes a Login Page, pulling raw data from a Data Source and populating a Menu List, while also implenting sorting, filtering and search capabilities.
                 </Text>
-                <Button borderColor='#E5EFE7' color='#E5EFE7' variant='outline' size='md' _hover={{ color: '#000000', bg: '#E5EFE7' }}>
-                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/seanmilfort/LittleLemon_FoodOrdering_Swift">View Code</a>
-                </Button>
+                <Stack spacing={6} direction={["column", "row"]}>
+                  <Button borderColor='#E5EFE7' color='#E5EFE7' variant='outline' size='md' _hover={{ color: '#000000', bg: '#E5EFE7' }}>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/seanmilfort/LittleLemon_FoodOrdering_Swift">View Code</a>
+                  </Button>
+                </Stack>
               </VStack>
             </div>
           </Box>
         </Stack>
 
         {/* Little Lemon Booking Project Project */}
-        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center">
+        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center" width="100%">
           <Box>
             <div data-aos="fade-right">
               <Image src={littlelemonbookingproject} maxWidth="300px" border='2px' borderColor='#E5EFE7' />
             </div>
           </Box>
-          <Box>
+          <Box width="100%">
             <div data-aos="fade-left">
               <VStack spacing={4} maxWidth="600px">
                 <Heading size="md" textAlign={"center"}>
@@ -144,13 +146,13 @@ const WorkExperience = () => (
         </Stack>
 
         {/* DJ Website */}
-        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center">
+        <Stack direction={["column", "column", "row"]} spacing={12} alignItems="center" width="100%">
           <Box>
             <div data-aos="fade-right">
               <Image src={djwebsitegproject} maxWidth="300px" border='2px' borderColor='#E5EFE7' />
             </div>
           </Box>
-          <Box>
+          <Box width="100%">
             <div data-aos="fade-left">
               <VStack spacing={4} maxWidth="600px">
                 <Heading size="md" textAlign={"center"}>

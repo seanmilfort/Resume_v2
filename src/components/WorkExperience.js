@@ -6,14 +6,15 @@ import resume from '../files/Sean_Milfort_Resume.pdf'
 
 const experiences = [
   {
-    getImageSrc: () => require("../images/GwyneddMercyUniversityLogo.png"),
+    getImageSrc: () => require("../images/GwyneddMercyUniversity_logo.png"),
     company: "Gwynedd Mercy University",
     companyDates: "(August 2023 - Present)",
     lastPosition: "Lecturer",
     dates: "(August 2023 - Present)",
     description: [
-      {detail: "Teaching at the Undergraduate Level"},
-      {detail: "Fall 2023: CIS 420 - Mobile Application Development"}]
+      {detail: "Spring 2024: CIS 424 – Web Design II"},
+      {detail: "Fall 2023: CIS 420 - Mobile Application Development"}
+    ]
   },
   {
     getImageSrc: () => require("../images/RiteAidLogo.png"),

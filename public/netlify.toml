@@ -10,6 +10,6 @@ status = 301
 force = true
 [[redirects]]
 from = "https://resume.seanmilfort.com/*"
-to = "https://seanmilfort.com/static/media/Sean_Milfort_Resume.0f84b725185fb6cd8834.pdf/"
+to = "https://seanmilfort.com/Sean_Milfort_Resume.pdf"
 status = 301
 force = true

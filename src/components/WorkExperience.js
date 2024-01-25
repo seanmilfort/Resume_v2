@@ -24,7 +24,7 @@ const experiences = [
     dates: "(Sep 2021 - Present)",
     description: [
       {detail: "Maintaining Workspace ONE UEM MDM Environment for 8,000+ devices (iOS/Android)"},
-      {detail: "Developing/Testing New Technologies for Store Environment"},
+      {detail: "Developing/Testing New Technologies for Store Environment – (Windows/Android)"},
       {detail: "Developed/Implemented Process to Upgrade Zebra Rugged Devices to newer versions of Android (Android 8 -> Android 10 -> Android 11)"},
       {detail: "Developed Android/iOS Configurations in Microsoft Intune"},
       {detail: "Implemented BlueFletch Launcher on Zebra Android Devices"},
@@ -37,7 +37,7 @@ const experiences = [
     lastPosition: "Systems Administrator",
     dates: "(Dec 2019 - Sep 2021)",
     description: [
-      {detail: "Created/Developing Application Packages & Software Installations for mass/minor deployments"},
+      {detail: "Created/Developing Application Packages & Software Installations for mass/minor deployments - (Windows, macOS, Android)"},
       {detail: "Creating Technical/Support Documentation for new & existing solutions"},
       {detail: "Evaluating/Designing Technical Solutions to improve End User Workflow"},
       {detail: "Developing/Troubleshooting Mobile Device Management Solutions"},

@@ -73,6 +73,7 @@ const MenuLinks = ({isOpen, toggle }) => {
         justify={["center", "space-between", "flex-end", "flex-end"]}
         direction={["column", "column", "row", "row"]}
         pt={[4, 4, 0, 0]}
+        
       >
         <MenuItem to="#Home" onClick={toggle}>Home</MenuItem>
         <MenuItem to="#AboutMe" onClick={toggle}>About Me</MenuItem>
@@ -100,6 +101,8 @@ const NavBarContainer = ({ children, ...props }) => {
       mb={4}
       p={4}
       bg={["#000000"]}
+      borderColor={["#FFFFFF"]}
+      borderBottom={"4px"}
       color={["#E5EFE7", "#E5EFE7", "solid", "solid"]}
       zIndex={100}
       {...props}

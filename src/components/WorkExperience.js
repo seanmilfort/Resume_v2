@@ -6,12 +6,13 @@ import resume from '../files/Sean_Milfort_Resume.pdf'
 
 const experiences = [
   {
-    getImageSrc: () => require("../images/GwyneddMercyUniversity_logo.png"),
+    getImageSrc: () => require("../images/GwyneddMercyUniversity_logo_new.png"),
     company: "Gwynedd Mercy University",
     companyDates: "(August 2023 - Present)",
     lastPosition: "Lecturer",
     dates: "(August 2023 - Present)",
     description: [
+      {detail: "Fall 2024: CIS - Introduction to Desktop Computing, CIS 114 – Web Design I"},
       {detail: "Spring 2024: CIS 424 – Web Design II"},
       {detail: "Fall 2023: CIS 420 - Mobile Application Development"}
     ]

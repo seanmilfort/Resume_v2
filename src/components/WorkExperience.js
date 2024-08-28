@@ -6,18 +6,6 @@ import resume from '../files/Sean_Milfort_Resume.pdf'
 
 const experiences = [
   {
-    getImageSrc: () => require("../images/GwyneddMercyUniversity_logo_new.png"),
-    company: "Gwynedd Mercy University",
-    companyDates: "(August 2023 - Present)",
-    lastPosition: "Lecturer",
-    dates: "(August 2023 - Present)",
-    description: [
-      {detail: "Fall 2024: CIS - Introduction to Desktop Computing, CIS 114 – Web Design I"},
-      {detail: "Spring 2024: CIS 424 – Web Design II"},
-      {detail: "Fall 2023: CIS 420 - Mobile Application Development"}
-    ]
-  },
-  {
     getImageSrc: () => require("../images/RiteAidLogo.png"),
     company: "Rite Aid",
     companyDates: "(Sep 2021 - Present)",
@@ -30,6 +18,18 @@ const experiences = [
       {detail: "Developed Android/iOS Configurations in Microsoft Intune"},
       {detail: "Implemented BlueFletch Launcher on Zebra Android Devices"},
       {detail: "Assisted Software Development Team with Maintaining Elixir Website: Updated HTML/CSS/JS Code & Made Changes to CMS Platform Modules"} ]
+  },
+  {
+    getImageSrc: () => require("../images/GwyneddMercyUniversity_logo_new.png"),
+    company: "Gwynedd Mercy University",
+    companyDates: "(August 2023 - Present)",
+    lastPosition: "Lecturer",
+    dates: "(August 2023 - Present)",
+    description: [
+      {detail: "Fall 2024: CIS - Introduction to Desktop Computing, CIS 114 – Web Design I"},
+      {detail: "Spring 2024: CIS 424 – Web Design II"},
+      {detail: "Fall 2023: CIS 420 - Mobile Application Development"}
+    ]
   },
   {
     getImageSrc: () => require("../images/WellSpanHealthLogo.png"),

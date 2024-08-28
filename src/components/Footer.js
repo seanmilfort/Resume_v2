@@ -57,10 +57,6 @@ import {
     {
         icon: faGithub,
         url: "https://github.com/seanmilfort",
-      },
-    {
-        icon: faEnvelope,
-        url: "mailto: seanmilfort@me.com",
       }
   ];
 

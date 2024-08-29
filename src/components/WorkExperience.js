@@ -2,7 +2,7 @@ import React from "react";
 import { Heading, VStack, Text} from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 import ExperienceInfo from "./ExperienceInformation";
-import resume from '../files/Sean_Milfort_Resume.pdf'
+import resume from '../files/Sean_Milfort_Resume_NoEmail.pdf'
 
 const experiences = [
   {

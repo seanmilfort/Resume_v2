@@ -8,8 +8,3 @@ from = "https://www.news.seanmilfort.com/*"
 to = "https://seanmilfort.substack.com/"
 status = 301
 force = true
-[[redirects]]
-from = "https://resume.seanmilfort.com/*"
-to = "https://resume.seanmilfort.com/static/media/Sean_Milfort_Resume.0a94a99cba96cb4efacb.pdf"
-status = 301
-force = true

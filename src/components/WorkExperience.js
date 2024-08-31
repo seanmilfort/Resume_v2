@@ -23,7 +23,7 @@ const experiences = [
     getImageSrc: () => require("../images/GwyneddMercyUniversity_logo_new.png"),
     company: "Gwynedd Mercy University",
     companyDates: "(August 2023 - Present)",
-    lastPosition: "Lecturer",
+    lastPosition: "Adjunct Faculty",
     dates: "(August 2023 - Present)",
     description: [
       {detail: "Fall 2024: CIS - Introduction to Desktop Computing, CIS 114 – Web Design I"},

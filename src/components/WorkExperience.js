@@ -14,7 +14,7 @@ const experiences = [
     description: [
       {detail: "Maintaining Workspace ONE UEM MDM Environment for 8,000+ devices (iOS/Android)"},
       {detail: "Developing/Testing New Technologies for Store Environment – (Windows/Android)"},
-      {detail: "Developed/Implemented Process to Upgrade Zebra Rugged Devices to newer versions of Android (Android 8 -> Android 10 -> Android 11)"},
+      {detail: "Developed/Implemented Process to Upgrade Zebra Rugged Devices to newer versions of Android (Android 8 -> Android 10 -> Android 11 -> Android 13)"},
       {detail: "Developed Android/iOS Configurations in Microsoft Intune"},
       {detail: "Implemented BlueFletch Launcher on Zebra Android Devices"},
       {detail: "Assisted Software Development Team with Maintaining Elixir Website: Updated HTML/CSS/JS Code & Made Changes to CMS Platform Modules"} ]
@@ -26,6 +26,7 @@ const experiences = [
     lastPosition: "Adjunct Faculty",
     dates: "(August 2023 - Present)",
     description: [
+      {detail: "Spring 2025: CIS 420 - Mobile Application Development"},
       {detail: "Fall 2024: CIS - Introduction to Desktop Computing, CIS 114 – Web Design I"},
       {detail: "Spring 2024: CIS 424 – Web Design II"},
       {detail: "Fall 2023: CIS 420 - Mobile Application Development"}

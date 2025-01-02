@@ -80,7 +80,7 @@ const Footer = () => {
               })}
           </HStack>
         </Stack>
-        <Text>Copyright &copy; 2023 Sean Milfort. All Rights Reserved.</Text>
+        <Text>Copyright &copy; 2025 Sean Milfort. All Rights Reserved.</Text>
         </VStack>
         </div>
     </VStack>

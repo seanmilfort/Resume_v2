@@ -15,7 +15,7 @@ const experiences = [
       {detail: "Maintaining Workspace ONE UEM MDM Environment for 8,000+ devices (iOS/Android)"},
       {detail: "Developing/Testing New Technologies for Store Environment – (Windows/Android)"},
       {detail: "Developed/Implemented Process to Upgrade Zebra Rugged Devices to newer versions of Android (Android 8 -> Android 10 -> Android 11 -> Android 13)"},
-      {detail: "Developed Android/iOS Configurations in Microsoft Intune"},
+      {detail: "Developed Android/iOS/macOS Configurations in Microsoft Intune"},
       {detail: "Implemented BlueFletch Launcher on Zebra Android Devices"},
       {detail: "Assisted Software Development Team with Maintaining Elixir Website: Updated HTML/CSS/JS Code & Made Changes to CMS Platform Modules"} ]
   },

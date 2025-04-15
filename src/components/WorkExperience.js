@@ -12,12 +12,12 @@ const experiences = [
     lastPosition: "System Administrator II",
     dates: "(Sep 2021 - Present)",
     description: [
-      {detail: "Maintaining Workspace ONE UEM MDM Environment for 8,000+ devices (iOS/Android)"},
-      {detail: "Developing/Testing New Technologies for Store Environment – (Windows/Android)"},
+      {detail: "Led New Configurations and Implementation for Workspace ONE UEM MDM Environment/Configurations for 8,000+ devices (iOS/Android)"},
+      {detail: "Developing/Testing/Innovating New Technologies for Store Environment – (Windows/Android)"},
       {detail: "Developed/Implemented Process to Upgrade Zebra Rugged Devices to newer versions of Android (Android 8 -> Android 10 -> Android 11 -> Android 13)"},
-      {detail: "Developed Android/iOS/macOS Configurations in Microsoft Intune"},
+      {detail: "Developed/Implemented Configurations and Builds for Android/iOS/macOS Configurations via Microsoft Intune"},
       {detail: "Implemented BlueFletch Launcher on Zebra Android Devices"},
-      {detail: "Assisted Software Development Team with Maintaining Elixir Website: Updated HTML/CSS/JS Code & Made Changes to CMS Platform Modules"} ]
+      {detail: "Updated/Implemented New Code for HTML/CSS/JS Code & Made Changes to CMS Platform Modules on Company Website"} ]
   },
   {
     getImageSrc: () => require("../images/GwyneddMercyUniversity_logo_new.png"),

@@ -39,9 +39,9 @@ function App() {
       <LandingSection />
       <AboutMe />
       <WorkExperience />
+      <Education />
       <SkillSection />
       <Projects />
-      <Education />
       <Footer />
       <ScrollToTop smooth width="40"/>
     </main>

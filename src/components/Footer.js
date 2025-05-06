@@ -1,7 +1,7 @@
 import React from "react";
 import { Heading, VStack, HStack, Text, Box, Stack} from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faNewspaper } from "@fortawesome/free-solid-svg-icons"
+import { faNewspaper } from "@fortawesome/free-solid-svg-icons"
 import {
     faXTwitter,
     faLinkedin,

@@ -13,10 +13,10 @@ const experiences = [
     dates: "(Sep 2021 - Present)",
     description: [
       {detail: "Led New Configurations and Implementation for Workspace ONE UEM MDM Environment/Configurations for 8,000+ devices (iOS/Android)"},
-      {detail: "Developing/Testing/Innovating New Technologies for Store Environment – (Windows/Android)"},
-      {detail: "Developed/Implemented Process to Upgrade Zebra Rugged Devices to newer versions of Android (Android 8 -> Android 10 -> Android 11 -> Android 13)"},
+      {detail: "Streamlined Device Configuration for Android/iOS/macOS devices to cut deployment time down by 30% to improve deployment and configuration efficiency"},
+      {detail: "Upgraded Android Zebra Handhelds from Android 8 to Android 13 – Multi-year Initiative"},
       {detail: "Developed/Implemented Configurations and Builds for Android/iOS/macOS Configurations via Microsoft Intune"},
-      {detail: "Implemented BlueFletch Launcher on Zebra Android Devices"},
+      {detail: "Implemented BlueFletch Suite on Zebra Android Devices to improve productivity/security on device"},
       {detail: "Updated/Implemented New Code for HTML/CSS/JS Code & Made Changes to CMS Platform Modules on Company Website"} ]
   },
   {
@@ -39,10 +39,10 @@ const experiences = [
     lastPosition: "Systems Administrator",
     dates: "(Dec 2019 - Sep 2021)",
     description: [
-      {detail: "Created/Developing Application Packages & Software Installations for mass/minor deployments - (Windows, macOS, Android)"},
+      {detail: "Creating/Developing Application Packages & Software Installations for mass deployments - (Windows, macOS, Android)"},
       {detail: "Creating Technical/Support Documentation for new & existing solutions"},
-      {detail: "Evaluating/Designing Technical Solutions to improve End User Workflow"},
-      {detail: "Developing/Troubleshooting Mobile Device Management Solutions"},
+      {detail: "Designed Technical Solutions to improve End User Workflow"},
+      {detail: "Developing/Troubleshooting Mobile Device Management Solutions (AirWatch)"},
       {detail: "Maintaining/Improving IT Environment with new Technological Improvements"} ]
   },
   {
@@ -52,11 +52,11 @@ const experiences = [
     lastPosition: "Integration Analyst II",
     dates: "(Nov 2017 - Nov 2019)",
     description: [
-      {detail: "Created Installer/Scripting Packages for silent installations for 15,000 Machine (Unix Scripting, PowerShell & Bash)"},
-      {detail: "Developed/Maintained the Base Computer Image for 4,000+ machines (Windows/Mac)"},
-      {detail: "Created/Edited/Deployed Group Policy 15,000+ active devices"},
       {detail: "Responsible for large-scale Engineering/Design changes to our Mobile Device Management Platform (AirWatch) containing 11,000+ devices (iOS, Android & Windows CE)"},
-      {detail: "Evaluated/Met with Senior Business Partners/Vendors on multiple different initiatives"} ]
+      {detail: "Created Installer/Scripting Packages for silent installations for 15,000 Machine utilizing IBM BigFix (Unix Scripting, PowerShell & Bash)"},
+      {detail: "Developed/Maintained the Base Computer Image for 4,000+ machines (Windows/Mac)"},
+      {detail: "Created/Edited/Deployed Active Directory Group Policy 15,000+ active devices"},
+      {detail: "Evaluated/Met with Senior Business Partners/Vendors on multiple different initiatives to improve customer/employee experience and workflow"} ]
   }
 ]
 

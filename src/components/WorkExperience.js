@@ -15,7 +15,7 @@ const experiences = [
       {detail: "Led New Configurations and Implementation for Workspace ONE UEM MDM Environment/Configurations for 8,000+ devices (iOS/Android)"},
       {detail: "Streamlined Device Configuration for Android/iOS/macOS devices to cut deployment time down by 30% to improve deployment and configuration efficiency"},
       {detail: "Upgraded Android Zebra Handhelds from Android 8 to Android 13 – Multi-year Initiative"},
-      {detail: "Developed/Implemented Configurations and Builds for Android/iOS/macOS Configurations via Microsoft Intune"},
+      {detail: "Developed/Implemented Configurations and Builds for Android/iOS/macOS/Windows Configurations via Microsoft Intune"},
       {detail: "Implemented BlueFletch Suite on Zebra Android Devices to improve productivity/security on device"},
       {detail: "Updated/Implemented New Code for HTML/CSS/JS Code & Made Changes to CMS Platform Modules on Company Website"} ]
   },
